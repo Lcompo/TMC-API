@@ -10,7 +10,7 @@
 #ifndef TMC_IC_TMC5240_TMC5240_CONSTANTS_H_
 #define TMC_IC_TMC5240_TMC5240_CONSTANTS_H_
 
-#include "tmc/helpers/Constants.h"
+#include "../helpers/Constants.h"
 
 #define TMC5240_REGISTER_COUNT   TMC_REGISTER_COUNT
 #define TMC5240_MOTORS           1

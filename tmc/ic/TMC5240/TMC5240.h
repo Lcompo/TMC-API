@@ -10,11 +10,11 @@
 #ifndef TMC_IC_TMC5240_H_
 #define TMC_IC_TMC5240_H_
 
-#include "tmc/helpers/API_Header.h"
-#include "tmc/helpers/Constants.h"
-#include "../TMC5240/TMC5240_Register.h"
+#include "../helpers/API_Header.h"
+#include "../helpers/Constants.h"
+#include "TMC5240_Register.h"
 #include "TMC5240_Constants.h"
-#include "../TMC5240/TMC5240_Fields.h"
+#include "TMC5240_Fields.h"
 
 // Helper macros
 #define TMC5240_FIELD_READ(tdef, address, mask, shift) \
